@@ -11,7 +11,7 @@ namespace ExtractEmbededRessources
     public class ExtractEmbededResouces
     {
         public static  void ExtractFiles (string nameSpace,
-            string outFile,string internalFilePath,string resourceName)
+            string outFile, string internalFilePath, string resourceName)
         {
             Assembly assembly = Assembly.GetCallingAssembly ();
             using Stream? stream = assembly.GetManifestResourceStream(nameSpace + "." + (internalFilePath == "" ? "" : internalFilePath + ".") + resourceName);
