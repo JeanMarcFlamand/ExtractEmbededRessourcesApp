@@ -8,13 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="EmbededRes\auguste - Copie.PNG" />
     <None Remove="EmbededRes\auguste.PNG" />
     <None Remove="EmbededRes\RichText.rtf" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="EmbededRes\auguste.PNG" />
-    <EmbeddedResource Include="EmbededRes\RichText.rtf" />
+    <EmbeddedResource Include="EmbededRes\auguste - Copie.PNG" />
+    <EmbeddedResource Include="EmbededRes\auguste.PNG">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbededRes\RichText.rtf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
