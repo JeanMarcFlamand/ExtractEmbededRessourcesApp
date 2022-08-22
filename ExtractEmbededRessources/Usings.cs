@@ -1,1 +1,2 @@
 ﻿global using static ExtractEmbededRessources.ExtractEmbededResouces;
+global using static ExtractEmbededRessources.Constants;
