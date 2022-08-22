@@ -1,1 +1,1 @@
-# Example showing how to extract internal(Do Not copy) and external(Copy Always) Embeded Ressources.
+# Example showing how to extract internal("Do not copy") and external("Copy always") Embeded Ressources.
